@@ -6,8 +6,8 @@ extra_css:
 site_dir: ../site
 docs_dir: ./docs
 markdown_extensions:
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  # - pymdownx.emoji:
+  #     emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
