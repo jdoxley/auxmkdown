@@ -11,9 +11,11 @@ nav:
      - 'V20': 'Changelogs/v20.md'
      - 'V20.2': 'Changelogs/v20.2.md'
      - 'V20.3': 'Changelogs/v20.3.md'
+     - 'V21' : 'Changelogs/v21.md'
 markdown_extensions:
-  # - pymdownx.emoji:
-  #     emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+      emoji_index: !!python/name:pymdownx.emoji.gemoji
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
